@@ -14,7 +14,7 @@ public class HelloController {
         @GetMapping(value = "/hello", produces = MediaType.TEXT_PLAIN_VALUE)
         public ResponseEntity<String> sayHello(){
             logger.info("GET /HELLO invoked");
-            return  ResponseEntity.ok("Hello, Springboot");
+            return  ResponseEntity.ok("Hello, This is wajid's first attempt on mastering Springboot through doing projects");
         }
 
 }
